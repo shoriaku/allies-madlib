@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+
+http://www.redkid.net/madlibs/
+-->
+
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+http://www.redkid.net/madlibs/
+-->
+
+<html>
+<head>
+<title>Allie's MadLib</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Franklin" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<h1>Allie's MadLib</h1>
+<div id="instru">
+  <center><p class="instructions">
+    Enter a value into each field. Then click 'Make Story' to read a funny story.
+  </p></center>
+
+  <center><form>
+    
+    <p>Type in an adjective.</p> <input type="text" id='adjective1'><br><br>
+  <p>Type in a noun.</p> <input type="text" id='noun1'><br><br>
+  <p>Type in a second noun.</p> <input type="text" id='noun2'><br><br>
+  <p>Type in a verb.</p> <input type="text" id='verb1'><br><br>
+  <p>Type in a third noun.</p> <input type="text" id='noun3'><br><br>
+  <p>Type in a second ing verb.</p> <input type="text" id='verb2'><br><br>
+  <p>Type in a fourth noun.</p> <input type="text" id='noun4'><br><br>
+  <p>Type in a third verb.</p> <input type="text" id='verb3'><br><br>
+  <p>Type in a fourth verb.</p> <input type="text" id='verb4'><br><br>
+  <p>Type in a fifth noun.</p> <input type="text" id='noun5'> <br><br>
+
+    <input type="button" onclick="makeStory();hideDiv()" value= "Make Story">
+  </form></center>
+
+</div>
+<center><div class="story">
+
+    <h2 id="title"></h2>
+    <p class="store" id="story"></p>
+
+</div></center>
+
+<script src="story_maker.js"></script>
+
+</body>
+</html>

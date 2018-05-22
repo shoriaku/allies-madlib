@@ -1,0 +1,51 @@
+body {
+    background-color: #CCCCCC;
+    padding: 2%;
+}
+
+h1 {
+    border-bottom: 3px solid #888888;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 90px;
+    margin: 0 0 20px 0;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+p.instructions {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div {
+    padding: 10px;
+}
+
+div.data {
+    margin-right: 2%;
+    width: 25%
+}
+
+div.story {
+    width: 73%;
+}
+
+p.store{
+
+  font-size: 35px;
+
+
+}
